@@ -10,7 +10,7 @@ class Config:
     DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://filestream:filestream@cluster0.d1dlfzv.mongodb.net/?retryWrites=true&w=majority")
     DATABASE_NAME = os.environ.get("DATABASE_NAME","Cluster0")
     COLLECTION_NAME = os.environ.get('COLLECTION_NAME', 'Forward_data')
-    SESSION = os.environ.get("SESSION", "BQAMEZX36Dygi5nsxbV8U8LkVv9Dz3bMDKewZePgO7MbGv94dx9nqB1tKcwc-eYZc_XEjksUFaQjbQEe6aZcxkpuWaa-sWlze6Wz5Izq_pxCkRwUhNKhgsHUX-EG-P5snp6K-g0CKM6h3RBa1IGzUl1PobQack6Nsk4n7Ophg2WNikX_aMEAIN006yMoRyKCzB2FHgt1nTlZHGFroyYgQVbyl31QRQAe-JrKAEm_A26_hCHk6FrzpV0aH5biDC9HAdXNSXrhFuMlaMhEIDI5Y2xLyRvMdn4CG6WooxxAZla0-gNVzs93uqVDkljzTrPrKonIMaFHiQThrm9U8k5Xq8ruAAAAAY4EawwA")
+    SESSION = os.environ.get("SESSION", "Forward_Session")
     TO_CHANNEL = int(os.environ.get("TO_CHANNEL", "-1001751333376"))
     BOT_USERNAME= os.environ.get("BOT_USERNAME", "NazriyaFilterBot")
 
