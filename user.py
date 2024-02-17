@@ -2,12 +2,13 @@ from config import Config
 from config import LOGGER
 from pyrogram import Client, __version__
 import asyncio
+
 BOT_USERNAME=Config.BOT_USERNAME
 
 class User(Client):
     def __init__(self):
         super().__init__(
-            Config.SESSION,
+            Config.STRING_SESSION,
             api_hash=Config.API_HASH,
             api_id=Config.API_ID,
             workers=10
